@@ -90,7 +90,7 @@ const msg = (msg) => {
 > In the square above you can tell that any 4 squares could be bombs!
 > Mark places you think there are bombs with flags!
 
-To start a game run ${config.prefix}newgame [Size] [Cheats (true|false)]
+To start a game run ${config.prefix}minesweeper newgame [Size] [Cheats (true|false)]
 
 To play, use the side and bottom bar to get the coordinates of the square you want to click 'a3'
 
