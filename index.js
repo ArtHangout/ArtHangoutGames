@@ -30,6 +30,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
+  if (!msg.member || !msg.member.id || msg.member.user.bot) return;
   var e = client.events.get('message');
   for (var f of e) f(msg);
 });
