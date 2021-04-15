@@ -346,7 +346,7 @@ function gameOver(game) {
 function win(game) {
   var time = timeTaken(game);
   var channel = client.channels.cache.get(game.channel);
-  channel.send(`<@${game.user}> You Won! You took ${time}`);
+  channel.send(`<@${game.user}> You Won! ${time}`);
   games.delete(game.user);
 }
 
