@@ -1,0 +1,15 @@
+{
+  "name": "arthangoutgames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KK964",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "require-all": "^3.0.0"
+  }
+}
